@@ -1,0 +1,98 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff;
+
+}
+@media (min-width: 768px)
+.card
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.card
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  min-height: 400px;
+  background: #eee;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.card:hover
+{
+  box-shadow: 0 20px 50px rgba(0,0,0,.2);
+}
+.card .box
+{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.card .box img
+{
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card .box .img img
+{
+  width: auto;
+}
+.card .box h2
+{
+  font-size: 20px;
+  color: #893f82;
+}
+.card .box h2 span
+{
+  font-size: 14px;
+  background: #893f82;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 15px;
+}
+.card .box p
+{
+  color: #999;
+}
+.card .box ul
+{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.card .box ul li
+{
+  list-style: none;
+  float: left;
+}
+.card .box ul li a
+{
+  display: block;
+  color: #999;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: 0.5s;
+  text-align: center;
+}
+.card .box ul li:hover a
+{
+  color: #893f82;
+  transform: rotateY(360deg);
+
+}
